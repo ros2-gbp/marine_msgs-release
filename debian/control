@@ -1,0 +1,12 @@
+Source: ros-humble-marine-acoustic-msgs
+Section: misc
+Priority: optional
+Maintainer: Laura Lindzey <lindzey@uw.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-geometry-msgs, ros-humble-rosidl-default-generators, ros-humble-std-msgs, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-marine-acoustic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-rosidl-default-runtime, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: The marine_acoustic_msgs package, including messages for common underwater sensors (DVL, multibeam sonar, imaging sonar)
