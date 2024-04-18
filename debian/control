@@ -1,0 +1,12 @@
+Source: ros-jazzy-marine-acoustic-msgs
+Section: misc
+Priority: optional
+Maintainer: Laura Lindzey <lindzey@uw.edu>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-jazzy-rosidl-default-generators, ros-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-marine-acoustic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-std-msgs, ros-jazzy-ros-workspace
+Description: The marine_acoustic_msgs package, including messages for common underwater sensors (DVL, multibeam sonar, imaging sonar)
