@@ -1,0 +1,12 @@
+Source: ros-kilted-marine-sensor-msgs
+Section: misc
+Priority: optional
+Maintainer: Laura Lindzey <lindzey@uw.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-generators, ros-kilted-std-msgs, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-marine-sensor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Description: The marine_sensor_msgs package, meant to contain messages for common underwater sensors (e.g., conductivity, turbidity, dissolved oxygen)
