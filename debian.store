@@ -1,1 +1,1 @@
-{"base": "34896bb", "parent": "debian/rolling/marine_sensor_msgs", "previous": "6828340", "trim": "", "trimbase": ""}
+{"base": "a80d135b95af", "parent": "debian/kilted/marine_sensor_msgs", "previous": "a152109f320b", "trim": "", "trimbase": ""}
