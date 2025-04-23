@@ -1,1 +1,1 @@
-{"base": "15b2882", "parent": "debian/rolling/marine_acoustic_msgs", "previous": "a459a70", "trim": "", "trimbase": ""}
+{"base": "ff798558fb89", "parent": "debian/kilted/marine_acoustic_msgs", "previous": "a3f010f3efa7", "trim": "", "trimbase": ""}
